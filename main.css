@@ -5,6 +5,8 @@ html, body {
     font-weight: 300;
     line-height: 1.5;
   }
+
+    
   
   body {
     font-family: 'Lato', sans-serif;
@@ -13,6 +15,18 @@ html, body {
     background-size: cover;
     margin: 0;
   }
+
+  .Indexbody {
+    font-family: 'Lato', sans-serif;
+    background-image: url('https://p2.piqsels.com/preview/570/565/124/wood-forest-trunks-timber.jpg');
+    background-position: center top;  
+  
+  }
+
+  .indexHeader{
+    background-color: #fff;
+  }
+  
   
   a {
     color: #204156;
@@ -53,6 +67,7 @@ html, body {
     border: 5px solid #fff;
     max-width: 100%;
   }
+
 
   .contactInfo {
     margin-top: 20px;
@@ -103,4 +118,5 @@ html, body {
     text-decoration: none;
   }
   
+
   
