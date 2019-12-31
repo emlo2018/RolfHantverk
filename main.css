@@ -4,9 +4,7 @@ html, body {
     flex-direction: column;
     font-weight: 300;
     line-height: 1.5;
-  }
-
-    
+  }  
   
   body {
     font-family: 'Lato', sans-serif;
@@ -21,6 +19,15 @@ html, body {
     background-image: url('https://p2.piqsels.com/preview/570/565/124/wood-forest-trunks-timber.jpg');
     background-position: center top;  
   
+  }
+
+  .contact{
+   padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
   }
 
   .indexHeader{
@@ -49,6 +56,7 @@ html, body {
     margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
   
   .gallery-item {
@@ -104,7 +112,7 @@ html, body {
     margin-right: 30px;
     padding: 8px 18px;
     border: 1px solid #204156;
-  position: relative;
+    position: relative;
   }
   
   .contact-btn a:active {
@@ -117,6 +125,6 @@ html, body {
     color: #204156;
     text-decoration: none;
   }
-  
+
 
   
