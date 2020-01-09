@@ -16,7 +16,8 @@ html, body {
 
   .Indexbody {
     font-family: 'Lato', sans-serif;
-    background-image: url('https://www.hsbygghandel.se/wp-content/uploads/2017/05/pexels-photo-172292.jpeg');
+    background-image: url("bakom.jpg");
+    /*background-image: url('https://www.hsbygghandel.se/wp-content/uploads/2017/05/pexels-photo-172292.jpeg');*/
     background-position: center top;  
   
   }
@@ -28,7 +29,11 @@ html, body {
     justify-content: center;
     color: white;
     font-size: larger;
-  
+    font-weight: bolder;
+  }
+
+  .contactFading{
+  background-color: rgba(0, 0, 0, 0.158);
   }
 
   .indexHeader{
