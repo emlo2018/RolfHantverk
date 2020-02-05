@@ -19,7 +19,6 @@ html, body {
     background-image: url("bakom.jpg");
     /*background-image: url('https://www.hsbygghandel.se/wp-content/uploads/2017/05/pexels-photo-172292.jpeg');*/
     background-position: center top;  
-  
   }
 
   .contact{
@@ -33,13 +32,12 @@ html, body {
   }
 
   .contactFading{
-  background-color: rgba(0, 0, 0, 0.158);
+  background-color: rgba(0, 0, 0, 0.267);
   }
 
   .indexHeader{
     background-color: #fff;
   }
-  
   
   a {
     color: #204156;
@@ -91,6 +89,10 @@ html, body {
   
   .contact-item {
     margin: 20px;
+  }
+
+  .contact li {
+    margin: 10px;
   }
   
   /* FOOTER NAVIGATION */
