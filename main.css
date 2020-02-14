@@ -1,138 +1,135 @@
 html, body {
-    min-height: 100%;
-    display: flex;
-    flex-direction: column;
-    font-weight: 300;
-    line-height: 1.5;
-  }  
-  
-  body {
-    font-family: 'Lato', sans-serif;
-    background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/background.jpg');
-    background-position: center top;
-    background-size: cover;
-    margin: 0;
-  }
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  line-height: 1.5;
+}  
 
-  .Indexbody {
-    font-family: 'Lato', sans-serif;
-    background-image: url("bakom.jpg");
-    /*background-image: url('https://www.hsbygghandel.se/wp-content/uploads/2017/05/pexels-photo-172292.jpeg');*/
-    background-position: center top;  
-  }
+body {
+  font-family: 'Lato', sans-serif;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/background.jpg');
+  background-position: center top;
+  background-size: cover;
+  margin: 0;
+}
 
-  .contact{
-    margin: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    color: white;
-    font-size: larger;
-    font-weight: bolder;
-  }
+.Indexbody {
+  font-family: 'Lato', sans-serif;
+  background-image: url("media/bakom.jpg");
+  /*background-image: url('https://www.hsbygghandel.se/wp-content/uploads/2017/05/pexels-photo-172292.jpeg');*/
+  background-position: center top;  
+}
 
-  .contactFading{
-  background-color: rgba(0, 0, 0, 0.267);
-  }
+.contact{
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: white;
+  font-size: larger;
+  font-weight: bolder;
+}
 
-  .indexHeader{
-    background-color: #fff;
-  }
-  
-  a {
-    color: #204156;
-    text-decoration: none;
-  }
-  
-  .page-title {
-    text-align: center;
-    font-weight: 100;
-  }
-  
-  .page-description {
-    border: 1px solid #000;
-    margin: 2px;
-    text-align: center;
-    padding: 30px;
-  }
-  
-  .gallery {
-    margin-top: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .gallery-item {
-    margin: 20px;
-    max-width: 25%;
-  }
+.contactFading{
+background-color: rgba(0, 0, 0, 0.267);
+}
 
-  .gallery-item:hover {
-    margin: 5px;
-    max-width: 30%;
-    position: relative;
-    cursor: pointer;
-  }
-  
-  .gallery-item .thumbnail {
-    border: 5px solid #fff;
-    max-width: 100%;
-  }
+.indexHeader{
+  background-color: rgb(248, 248, 248);
+}
 
+a {
+  color: #204156;
+  text-decoration: none;
+}
 
-  .contactInfo {
-    margin-top: 20px;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .contact-item {
-    margin: 20px;
-  }
+.page-title {
+  text-align: center;
+  font-weight: 100;
+}
 
-  .contact li {
-    margin: 10px;
-  }
-  
-  /* FOOTER NAVIGATION */
-  
-  nav {
-    background-color: #FFF;
-  }
-  
-  nav li {
-    display: inline;
-    margin: 0;
-    padding: 0 10px;
-  }
-  
-  nav ul {
-    display: inline;
-  }
-  
-  .contact-btn {
-    float: right;
-  }
-  
-  .contact-btn a {
-    cursor: pointer;
-    margin-right: 30px;
-    padding: 8px 18px;
-    border: 1px solid #204156;
-    position: relative;
-  }
-  
-  .contact-btn a:active {
-   top: 2px; 
-  }
-  
-  nav a {
-    height: 60px;
-    line-height: 60px;
-    color: #204156;
-    text-decoration: none;
-  }
+.page-description {
+  border: 1px solid #000;
+  margin: 2px;
+  text-align: center;
+  padding: 30px;
+}
+
+.gallery {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-item {
+  margin: 20px;
+  max-width: 25%;
+}
+
+.gallery-item:hover {
+  margin: 5px;
+  max-width: 30%;
+  position: relative;
+  cursor: pointer;
+}
+
+.gallery-item .thumbnail {
+  border: 5px solid #fff;
+  max-width: 100%;
+}
 
 
-  
+.contactInfo {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact-item {
+  margin: 20px;
+}
+
+.contact li {
+  margin: 10px;
+}
+
+/* FOOTER NAVIGATION */
+
+nav {
+  background-color: #FFF;
+}
+
+nav li {
+  display: inline;
+  margin: 0;
+  padding: 0 10px;
+}
+
+nav ul {
+  display: inline;
+}
+
+.contact-btn {
+  float: right;
+}
+
+.contact-btn a {
+  cursor: pointer;
+  margin-right: 30px;
+  padding: 8px 18px;
+  border: 1px solid #204156;
+  position: relative;
+}
+
+.contact-btn a:active {
+ top: 2px; 
+}
+
+nav a {
+  height: 60px;
+  line-height: 60px;
+  color: #204156;
+  text-decoration: none;
+}
