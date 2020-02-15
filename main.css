@@ -1,135 +1,235 @@
 html, body {
-  min-height: 100%;
+    font-weight: 600;
+    line-height: 1.5;
+    font-family: 'Lato', sans-serif;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+  }  
+  
+  body {
+    /*background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/background.jpg');
+    background-position: center top;
+    background-size: cover;*/
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* background-repeat: no-repeat;
+    background-attachment: fixed; */
+  }
+
+  nav a {
+    height: 60px;
+    line-height: 60px;
+    cursor: pointer;
+  }
+
+  nav li {
+    display: inline;
+    margin: 0;
+    padding: 0 10px;
+  }
+  
+  nav ul {
+    display: inline;
+  }
+
+  a {
+    color: #204156;
+    text-decoration: none;
+  }
+
+  .grayheader {
+    background-color: rgb(237, 237, 248);
+    background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/background.jpg');
+    background-position: center top;
+    background-size: cover;
+    color: #204156;
+  } 
+
+  .indexbody a {
+    color: #fff;
+    margin: 2px;
+    flex-direction: row;
+    font-weight: 800;
+    flex-wrap: wrap 1;
+  }
+
+  .indexbody {
+    font-family: 'Lato', sans-serif;
+    background-image: url("media/kvadrathantverk.png");
+    /*background-image: url('https://www.hsbygghandel.se/wp-content/uploads/2017/05/pexels-photo-172292.jpeg');*/
+    background-position: center top;  
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .producttitle {
+    display: flex;
+    flex-direction: column;
+    padding: 0.2rem;
+  }
+
+  .producttitle h3 {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background-color: rgb(237, 237, 248);
+    border-radius: 2px;
+  }
+
+  .contact {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+  }
+
+  .contactFading {
+   color: rgb(22, 21, 21);
+  }
+  
+  .page-title {
+    text-align: center;
+    font-weight: 300;
+  }
+
+  .page-title-index {
+    text-align: center;
+    font-weight: 400;
+    color: #fff;
+  }
+  
+  .page-description {
+    border: 1px solid #000;
+    margin: 2px;
+    text-align: center;
+    padding: 30px;
+  }
+  .page-description-index {
+    margin: 2px;
+    font-weight: 900;
+    flex-direction: row;
+    align-self: center;
+    display: flex;
+  }
+
+  .gallery {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gallery-item {
+    margin: 20px;
+    max-width: 25%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .gallery-item:hover {
+    margin: 5px;
+    max-width: 30%;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .gallery-item .thumbnail {
+    /*border: 5px solid #fff;*/
+    max-width: 100%;
+  }
+
+  .contactInfo {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .contact-item {
+    margin: 20px;
+  }
+
+  .contact li {
+    margin: 10px;
+  }
+  
+  /* FOOTER NAVIGATION */
+  
+  footer div {
+    color: #000;
+  }
+
+  .index a {
+    color: #fff;
+  }
+
+  footer {
+    margin: 45px auto;
+  }
+
+  .nav-footer {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /*** Media Queries ***/
+@media (max-width: 650px) {
+  .contact {
+   margin: 5;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   font-size: larger; 
+   font-weight: 600;
+  }
+}
+
+@media (min-width: 650px) {
+  .page-title {
+    font-size: 45px;
+    font-weight: 400;
+  }
+  .contact {
+    font-size: 30px;
+  }
+
+  .index-nav {
+    text-align: center;
+    display: flex;
+    font-size: 2rem;
+  }
+
+
+  
+  nav a {
+    height: 60px;
+    line-height: 60px;
+    color: #204156;
+    text-decoration: none;
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 1025px) {
+
+.contact {
   display: flex;
   flex-direction: column;
-  font-weight: 300;
-  line-height: 1.5;
-}  
+  align-items: center;
+ }
 
-body {
-  font-family: 'Lato', sans-serif;
-  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/background.jpg');
-  background-position: center top;
-  background-size: cover;
-  margin: 0;
-}
-
-.Indexbody {
-  font-family: 'Lato', sans-serif;
-  background-image: url("media/bakom.jpg");
-  /*background-image: url('https://www.hsbygghandel.se/wp-content/uploads/2017/05/pexels-photo-172292.jpeg');*/
-  background-position: center top;  
-}
-
-.contact{
-  margin: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  color: white;
-  font-size: larger;
-  font-weight: bolder;
-}
-
-.contactFading{
-background-color: rgba(0, 0, 0, 0.267);
-}
-
-.indexHeader{
-  background-color: rgb(248, 248, 248);
-}
-
-a {
-  color: #204156;
-  text-decoration: none;
-}
-
-.page-title {
-  text-align: center;
-  font-weight: 100;
-}
-
-.page-description {
-  border: 1px solid #000;
-  margin: 2px;
-  text-align: center;
-  padding: 30px;
-}
-
-.gallery {
-  margin-top: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.gallery-item {
-  margin: 20px;
-  max-width: 25%;
-}
-
-.gallery-item:hover {
-  margin: 5px;
-  max-width: 30%;
-  position: relative;
-  cursor: pointer;
-}
-
-.gallery-item .thumbnail {
-  border: 5px solid #fff;
-  max-width: 100%;
 }
 
 
-.contactInfo {
-  margin-top: 20px;
-  display: flex;
-  flex-wrap: wrap;
-}
 
-.contact-item {
-  margin: 20px;
-}
 
-.contact li {
-  margin: 10px;
-}
 
-/* FOOTER NAVIGATION */
-
-nav {
-  background-color: #FFF;
-}
-
-nav li {
-  display: inline;
-  margin: 0;
-  padding: 0 10px;
-}
-
-nav ul {
-  display: inline;
-}
-
-.contact-btn {
-  float: right;
-}
-
-.contact-btn a {
-  cursor: pointer;
-  margin-right: 30px;
-  padding: 8px 18px;
-  border: 1px solid #204156;
-  position: relative;
-}
-
-.contact-btn a:active {
- top: 2px; 
-}
-
-nav a {
-  height: 60px;
-  line-height: 60px;
-  color: #204156;
-  text-decoration: none;
-}
+  
