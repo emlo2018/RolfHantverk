@@ -87,7 +87,7 @@ html, body {
     margin: 20px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
     color: white;
     font-size: larger;
     font-weight: bolder;
@@ -160,13 +160,14 @@ html, body {
 
   .contact li {
     margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
   }
   
   /* FOOTER NAVIGATION */
   
-  footer div {
-    color: #000;
-  }
+
 
   .index a {
     color: #fff;
@@ -187,7 +188,7 @@ html, body {
    margin: 5;
    display: flex;
    flex-wrap: wrap;
-   justify-content: center;
+   justify-content: left;
    font-size: larger; 
    font-weight: 600;
   }
@@ -200,6 +201,9 @@ html, body {
   }
   .contact {
     font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
   }
 
   .index-nav {
